@@ -1,0 +1,11 @@
+button {
+    background-color: chartreuse;
+    font-size: 32px;
+
+}
+
+@media screen and (width < 600px) {
+    button{
+        display: none;
+    }
+}

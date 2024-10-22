@@ -1,0 +1,10 @@
+h1 {
+    border: 2px solid;
+    text-align: center;
+}
+
+@media screen and (width >=600px) {
+    h1 {
+        box-shadow: 3px 6px rgb(133, 9, 30);
+    }
+}

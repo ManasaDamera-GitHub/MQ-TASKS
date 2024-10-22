@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20px;
+    color: brown;
+}
+
+@media screen and (width >=400px) and (width < 900px) {
+    h1 {
+        font-size: 28px;
+        color: black;
+    }
+}
+
+@media screen and (width >=900px) {
+    h1 {
+        font-size: 36px;
+        color: aqua;
+    }
+}

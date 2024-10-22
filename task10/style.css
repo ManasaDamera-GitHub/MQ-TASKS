@@ -1,0 +1,12 @@
+h1 {
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+@media screen and (orientation : portrait) {
+    h1 {
+        border-radius: 0px;
+    }
+}

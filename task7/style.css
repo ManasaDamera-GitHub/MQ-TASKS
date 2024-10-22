@@ -1,0 +1,12 @@
+button {
+    background-color: teal;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+}
+
+@media screen and (orientation : portrait) {
+    button {
+        background-color: orange;
+    }
+}
